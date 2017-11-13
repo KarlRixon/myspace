@@ -1,0 +1,36 @@
+body{
+	background-image: url(bg.jpg);
+}
+h3{
+	height: 100;
+	font-size: 50;
+	text-align: center;
+	margin: 0 auto;
+	color: #FFFFF0;
+	font-family:"Consolas","Monaco","Bitstream Vera Sans Mono","Courier New","sans-serif";
+}
+
+a:visited,a:link{ 
+	text-decoration:none;
+	color: #DC143C;
+	font-family:"Consolas","Monaco","Bitstream Vera Sans Mono","Courier New","sans-serif";
+} 
+pre{
+	color: #FFFFF0;
+	font-family:"Consolas","Monaco","Bitstream Vera Sans Mono","Courier New","sans-serif";
+}
+
+#text{
+	height: 500;
+	width: 600;
+	margin: 0 auto;
+	color: #FFFFF0;
+	font-family:"Consolas","Monaco","Bitstream Vera Sans Mono","Courier New","sans-serif";
+}
+
+#footer{
+	position: absolute;
+	top:96%;
+	color:#32CD32;
+	font-family:"Consolas","Monaco","Bitstream Vera Sans Mono","Courier New","sans-serif";
+}
