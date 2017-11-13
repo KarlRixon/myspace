@@ -8,9 +8,12 @@
 		fclose($f);
 	}
 	$num++;
-	$ff=fopen("num.txt","w");
-	fwrite($ff,$num);
-	fclose($ff);
+	if(!$ff=fopen("num.txt","w")){
+		echo "文件不存在！";
+	}else{
+		fwrite($ff,$num);
+		fclose($ff);
+	}
 	$numarr=str_split($num);
 	foreach($numarr as $val){
 		echo "<img src='".$val.".png'>";
