@@ -7,7 +7,7 @@
 		$num=fgets($f,10);
 		fclose($f);
 	}
-	$num++;
+	$num+=1;
 	if(!$ff=fopen("num.txt","w")){
 		echo "文件不存在！";
 	}else{
